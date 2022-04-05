@@ -1,0 +1,16 @@
+# MOCO Electronics Checklist
+[-] Unverified symbol check
+    [*] EFM32PG22
+    [*] DRV8311 (check subtype)
+    [*] RS485 driver
+    [*] Encoder
+[-] Unverified footprint check
+    [*] DRV8311
+[*] Full ERC pass
+[*] Full DRC pass
+[-] Thermal simulation
+[*] Revision control
+[-] Tag production revision
+[-] Final design review
+[-] Component sourcing
+[-] Board sourcing
