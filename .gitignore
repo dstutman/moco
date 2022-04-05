@@ -28,6 +28,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# KiCAD Outputs
+Electronics/Outputs/
+
 # CAD Files
 *.stp
 *.step
