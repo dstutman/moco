@@ -126,7 +126,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15239999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -153,12 +153,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|533400|723900|4983429e-610c-4d9f-9e5a-fa41e26c81f1|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|1790700|533400|2d708ecb-c02b-40e0-ba1e-1d477bc175e9|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|1816100|533400|618ce238-5b73-448d-9dd9-32738b06509d|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|508000|1562100|30287a1d-13dc-46c5-a044-46c28fe3b172|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
