@@ -2976,7 +2976,7 @@
     (property "Reference" "C4" (id 0) (at 73.66 44.4562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1 uF 6.3V X5R" (id 1) (at 73.66 46.9962 0)
+    (property "Value" "" (id 1) (at 73.66 46.9962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 71.12 45.72 0)
@@ -3214,7 +3214,7 @@
     (property "Reference" "U1" (id 0) (at 75.6794 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 75.6794 130.81 0)
+    (property "Value" "EFM32PG22C200FxxIM32" (id 1) (at 75.6794 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm" (id 2) (at 38.1 45.72 0)
@@ -3479,7 +3479,7 @@
     (property "Reference" "C16" (id 0) (at 119.38 44.4562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1 uF 6.3V X5R" (id 1) (at 119.38 46.9962 0)
+    (property "Value" "" (id 1) (at 119.38 46.9962 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 116.84 45.72 0)
@@ -4166,7 +4166,7 @@
       (reference "C3") (unit 1) (value "0.1 uF 6.3V X5R") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/38fb5cb4-62b0-453c-a0cd-70f0377918e1"
-      (reference "C4") (unit 1) (value "0.1 uF 6.3V X5R") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C4") (unit 1) (value "1 uF 6.3V X5R") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/27da2ae3-72dc-4398-adbe-9877cfb05dfd"
       (reference "C5") (unit 1) (value "0.1uF 6.3V X7R") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4199,7 +4199,7 @@
       (reference "C15") (unit 1) (value "10uF VBUS X7R") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a4ca4859-4de5-4905-abe9-999d28b168e2"
-      (reference "C16") (unit 1) (value "1 uF 6.3V X5R") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C16") (unit 1) (value "0.1 uF 6.3V X5R") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/68513806-7dc4-4ce3-a311-86049a308f19"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
