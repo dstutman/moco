@@ -156,11 +156,11 @@
       )
     )
   )
-  (symbol "EFR32BG22C200FxxIM32" (in_bom yes) (on_board yes)
+  (symbol "EFR32BG22C224FxxxGM32" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 -30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "EFR32BG22C200FxxIM32" (id 1) (at 15.24 -33.02 0)
+    (property "Value" "EFR32BG22C224FxxxGM32" (id 1) (at 15.24 -33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm" (id 2) (at -35.56 52.07 0)
@@ -169,7 +169,7 @@
     (property "Datasheet" "https://www.silabs.com/documents/public/application-notes/an0002.2-efr32-efm32-series-2-hardware-design-considerations.pdf" (id 3) (at -35.56 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "EFR32BG22C200FxxIM32_0_0"
+    (symbol "EFR32BG22C224FxxxGM32_0_0"
       (text "UNVERIFIED" (at 8.89 -35.56 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -306,7 +306,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "EFR32BG22C200FxxIM32_0_1"
+    (symbol "EFR32BG22C224FxxxGM32_0_1"
       (rectangle (start -17.78 27.94) (end 17.78 -27.94)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))

@@ -1,0 +1,4 @@
+7x 0.1uF 6.3V X7R
+2x 1uF 6.3V X7R
+2x 10uF VBUX X7R
+
