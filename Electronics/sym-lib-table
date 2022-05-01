@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/Library.kicad_sym")(options "")(descr ""))
+  (lib (name "DStutman_Regulator_Switching")(type "KiCad")(uri "/var/home/dstutman/Projects/dstutman-kicad-libraries/DStutman_Regulator_Switching/DStutman_Regulator_Switching.kicad_sym")(options "")(descr ""))
 )

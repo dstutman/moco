@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 1.9,
+          "width": 1.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -57,7 +57,6 @@
       ],
       "drc_exclusions": [
         "clearance|38446446|40939339|526ff49e-38ca-4088-87b0-25d9f9dabffd|222a4879-ebdd-42ed-a5d5-69a6da7a605b",
-        "clearance|38499479|41699480|d7247866-f5d1-4de2-9f26-1d7c62437fab|526ff49e-38ca-4088-87b0-25d9f9dabffd",
         "clearance|39100520|41699479|d7247866-f5d1-4de2-9f26-1d7c62437fab|71d15bd3-9997-43e4-9265-f4bbb1fcfe39",
         "clearance|39153553|40232233|222a4879-ebdd-42ed-a5d5-69a6da7a605b|a925b5ab-9de1-4248-b2d9-4c0ad660a527",
         "clearance|39153553|40939339|71d15bd3-9997-43e4-9265-f4bbb1fcfe39|222a4879-ebdd-42ed-a5d5-69a6da7a605b",
@@ -67,7 +66,10 @@
         "clearance|40567767|39525126|94013bdf-921c-4110-bf95-b4617e0c56c6|b6c73a27-6dbd-4f0e-b9d7-4b923be8e9b6",
         "clearance|40567767|40232233|c91ca1cc-8414-4ebe-9e24-b4e3430e833f|94013bdf-921c-4110-bf95-b4617e0c56c6",
         "clearance|41274873|38818019|c053ff89-873e-4f5a-bde5-5b3389f9d8e4|8c77f8b5-0507-4877-8112-5d0fe3cb764c",
-        "clearance|41274873|39525126|94013bdf-921c-4110-bf95-b4617e0c56c6|c053ff89-873e-4f5a-bde5-5b3389f9d8e4"
+        "clearance|41274873|39525126|94013bdf-921c-4110-bf95-b4617e0c56c6|c053ff89-873e-4f5a-bde5-5b3389f9d8e4",
+        "silk_over_copper|43686972|39207826|483d8c74-f6ea-4eab-8970-1fcf906192db|829dcc90-d964-47e3-aa8a-5efe5f8b5535",
+        "silk_over_copper|47710000|41814579|1836d8c6-f8ac-4a37-8e68-f179bc28aad9|d57c32a2-d8c1-4dc8-96a9-dbf2529af5b6",
+        "silk_over_copper|52290000|41814579|1836d8c6-f8ac-4a37-8e68-f179bc28aad9|97642e40-3231-4f45-a1a2-2f1d07d8e16d"
       ],
       "meta": {
         "version": 2
@@ -153,7 +155,13 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "no_connect_connected|3467100|1282700|2e78ba10-2fc1-4fad-9c89-3dd0a7e46a73|00000000-0000-0000-0000-000000000000",
+      "pin_to_pin|825500|736600|4b117a4a-2931-4aea-9d99-ba1775560230|d944bb2b-4641-4332-a1ce-f491aac8e3c2",
+      "power_pin_not_driven|1041400|1562100|d647331a-aa54-419f-8c8a-058df8a56789|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2133600|1765300|657a67ce-502c-4d46-87e9-9770452bdac3|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|825500|1028700|f6a4a9ed-8e48-4f7a-b558-9479f30895cb|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -348,7 +356,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -380,6 +388,29 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.154,
+        "diff_pair_gap": 0.154,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/USB_CONN_DN",
+          "/USB_CONN_DP",
+          "/USB_DN",
+          "/USB_DP"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.154,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
