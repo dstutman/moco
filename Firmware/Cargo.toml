@@ -1,0 +1,26 @@
+[package]
+name = "moco-firmware"
+version = "0.1.0"
+edition = "2021"
+authors = ["Daniel Avishai Stutman <git@stutman.tech>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.release]
+opt-level = "s"
+
+[profile.dev]
+debug = true
+opt-level = "z"
+
+[dependencies]
+# Logging
+log = "0.4.17"
+# MCU manipulation
+riscv = "0.7.0"
+riscv-rt = "0.8.0"
+esp32c3-hal = { git = "https://github.com/esp-rs/esp-hal", features = []}
+panic-halt = "0.2.0"
+# Motor control
+brushless = { git = "https://github.com/dstutman/brushless" }
+# Datastructures
+bbqueue = "0.5.1"

@@ -1,0 +1,9 @@
+[target.riscv32imac-unknown-none-elf]
+rustflags = [
+  "-C", "link-arg=-Tlinkall.x",
+]
+runner = "probe-run --chip esp32c3"
+
+
+[build]
+target = "riscv32imac-unknown-none-elf"
